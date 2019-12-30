@@ -8,7 +8,7 @@ We start with the empty square and the 9 tiles.
 At each step, we generate all the possible options.
 For example the first step generates 36 different positions (9 tiles + 4 rotations for each)
 
-# Representations of the tiles
+# Representation of the tiles
 The "dictionary" number <--> animal
 - grasshopper -1 & 1 (green orange)
 - spider -2 & 2 (purple)
@@ -33,8 +33,8 @@ A tile is a list of 4 numbers representing the animals
 For example:
 ![alt text](IMG_4857.jpeg)
 are the 2 tiles:
-- [4,2,3,-1]
-- [1,3,-2,-4]
+- [2,3,-1,4]
+- [3,-2,-4,1]
 
 # Solved puzzle
 ![alt text](IMG_4856.jpeg)
