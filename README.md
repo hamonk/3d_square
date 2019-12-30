@@ -10,14 +10,15 @@ For example the first step generates 36 different positions (9 tiles + 4 rotatio
 
 # Representations of the tiles
 The "dictionary" number <--> animal
-- sauterelle (grasshopper) -1 1 vert orange / green orange
-- araignee (spider) -2 2 violet/purple
-- coccinelle (lady bug) -3 3 rouge/red
-- scarabe (beetle) -4 4 jaune/yellow
+- grasshopper -1 & 1 (green orange)
+- spider -2 & 2 (purple)
+- lady bug -3 & 3 (red)
+- beetle -4 & 4 (yellow)
 Positive numbers are heads.
 Negative numbers are tails.
 
 A tile is a list of 4 numbers representing the animals
+```
       0
  +--- X ---+
  |         |
@@ -27,6 +28,7 @@ A tile is a list of 4 numbers representing the animals
  |         |
  +--- X ---+
       2
+```
 
 For example:
 ![alt text](IMG_4857.jpeg)
